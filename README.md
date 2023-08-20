@@ -7,8 +7,7 @@ This is the official repository for UMARV Navigation subteams onboarding documen
 Follow this guide to download docker https://docs.google.com/document/d/1BoBzBi_zj4UksIr_JSo8NRH-JYdkBk_sFzb5_qUIuQs/edit?usp=drive_link
 
 **HOW TO COMPLETE THE NAV ONBOARDING** \
-Download docker image \
-Open docker using VNC viewer\
+Open your docker container in VNC viewer \
 Open terminal\
 mkdir ~/ros_tutorial_ws/src\
 clone this repository\
