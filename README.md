@@ -1,10 +1,8 @@
 # nav_onboarding_2023
 This is the official repository for UMARV Navigation subteams onboarding documents for 2023.
 
-**PREREQUISITES TO STARTING**
-Follow this guide to download docker https://docs.google.com/document/d/1BoBzBi_zj4UksIr_JSo8NRH-JYdkBk_sFzb5_qUIuQs/edit?usp=drive_link 
-
-
+**PREREQUISITES TO STARTING**\
+Follow this guide to download docker https://docs.google.com/document/d/1BoBzBi_zj4UksIr_JSo8NRH-JYdkBk_sFzb5_qUIuQs/edit?usp=drive_link \
 
 **HOW TO COMPLETE THE NAV ONBOARDING** \
 Download docker image \
