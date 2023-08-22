@@ -19,7 +19,7 @@ cd ..\
 catkin build\
 source devel/setup.bash\
 roscore\
-Open a new terminal (CTRL-t) \
+Open a new terminal (CTRL-t) NOTE: If you're using the online view, you can't control t without opening a new browser tab. So just go into the file tab in your terminal and open a new tab that way. \
 source devel/setup.bash\
 roslaunch secret_msg secret_msg.launch\
 
