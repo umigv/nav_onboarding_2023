@@ -25,7 +25,8 @@ roslaunch secret_msg secret_msg.launch\
 Open a new tab (Reminder: you should still be in ~/ros_tutorial_ws)\
 rosnode list\
 **Hint play with the rosnode functions and see what you can learn.**\
-http://wiki.ros.org/rosnode\
+http://wiki.ros.org/rosnode
+
 **CREATING YOUR CUSTOM PACKAGE**\
 You are now set up for the tutorial. Hopefully, you have learned a bit about the structure of ROS at this point as well. Now you need to create a custom ROS package to subscribe to data from the secret_msg node and use that data to call a service in the vault_key pad node. You are a bank robber and your goal is to, as one may say, "Get dat bread". Use the ROS WIKI tutorials to help guide you. This is not an easy task and by no means is this tutorial exhaustive so please do not hesitate to ask for help!\ 
 Open a new terminal.\
