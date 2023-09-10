@@ -2,6 +2,16 @@
 
 This is the official repository for UMARV Navigation subteams onboarding documents for 2023.
 
+**Project Overview**
+You are a bank robber living in the digital age. All people and banks use ROS 1 noetic. In this tutorial, you will learn how to use ROS publishers and subscribers to receive the secret message that contains the vault key code. Once you have received and cracked the code, send it via a ROS client to a ROS service to get the money from the vault.\
+_Topic Overview:_\
+Publishers & Subscribers\
+Services & Clients\
+Custom Message Types\
+ROS Command Line Tools\
+Much More!\
+
+
 **DO NOT LOOK AT ANY OF THE FILES IN THIS REPOSITORY**
 
 **PREREQUISITES TO STARTING**\
