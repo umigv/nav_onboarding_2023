@@ -7,7 +7,7 @@
 
 /*
 This ros package is not meant to be viewed by new members.
-If your a new member and have not completed the tutorial turn around now.
+If you are a new member and have not completed the tutorial turn around now.
 Viewing this code will ruin all the fun!
 
 ------------SECRET REWARD BELOW DON"T CHEAT----------------------------

@@ -11,27 +11,27 @@ docker:
 
 **HOW TO COMPLETE THE NAV ONBOARDING** \
 Open your docker container in VNC viewer \
-Open terminal\
+Open terminal
 
 ```shell
-cd ~\
-mkdir ros_tutorial_ws\
-cd ros_tutorial_ws\
-mkdir src\
-cd src\
-git clone https://github.com/umigv/nav_onboarding_2023.git .\
-cd ..\
-catkin build\
-source devel/setup.bash\
-roscore\
+cd ~
+mkdir ros_tutorial_ws
+cd ros_tutorial_ws
+mkdir src
+cd src
+git clone https://github.com/umigv/nav_onboarding_2023.git
+cd ..
+catkin build
+source devel/setup.bash
+roscore
 ```
 
 Open a new terminal (CTRL-t) NOTE: If you're using the online view, you can't control t without opening a new browser
 tab. So just go into the file tab in your terminal and open a new tab that way.
 
 ```shell
-source devel/setup.bash\
-roslaunch secret_msg secret_msg.launch\
+source devel/setup.bash
+roslaunch secret_msg secret_msg.launch
 ```
 
 Open a new tab (Reminder: you should still be in ~/ros_tutorial_ws)\
@@ -52,15 +52,15 @@ not hesitate to ask for help!\
 Open a new terminal.
 
 ```commandline
-cd ~/ros_tutorial_ws\
-source devel/setup.bash\
-catkin create pkg <package_name> roscpp rospy std_msgs std_srvs message_generation\
+cd ~/ros_tutorial_ws
+source devel/setup.bash
+catkin create pkg <package_name> roscpp rospy std_msgs std_srvs message_generation
 ```
 
 Hint: use `rosnode list` and `rosnode info <node_name>` to find what topic to subscribe to.\
 [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)\
 Go to the link above for a ros publisher, and subscriber tutorial.\
-Hint: use -> rosservice list\
+**Hint: use -> rosservice list**\
 [Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29) \
 Go to the link above for a ros service and client tutorial. \
 Call the service you found using rosservice list.\
