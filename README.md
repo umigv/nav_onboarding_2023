@@ -29,7 +29,7 @@ mkdir ros_tutorial_ws
 cd ros_tutorial_ws
 mkdir src
 cd src
-git clone https://github.com/umigv/nav_onboarding_2023.git
+git clone https://github.com/umigv/nav_onboarding_2023.git .
 cd ..
 catkin build
 source devel/setup.bash
