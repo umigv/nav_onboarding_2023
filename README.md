@@ -64,7 +64,7 @@ Open a new terminal.
 ```commandline
 cd ~/ros_tutorial_ws
 source devel/setup.bash
-catkin create pkg <package_name> roscpp rospy std_msgs std_srvs message_generation
+catkin_create_pkg <package_name> roscpp rospy std_msgs std_srvs message_generation
 ```
 
 Hint: use `rosnode list` and `rosnode info <node_name>` to find what topic to subscribe to.\
