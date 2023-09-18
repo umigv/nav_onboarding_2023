@@ -167,12 +167,14 @@ Use the links below to learn how to create the subscriber node, and then call th
 
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
-- **Hint: use `rosservice list`**
+- Note you created a package called <package_name> (from before) while the tutorial references a package they created called "beginner_tutorials".
+- **Hint: section 2 of this site will be most useful to you, and use `rosservice list`**
 
 ### [Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
 - Go to the link above for a ros service and client tutorial. 
 - Call the service you found using `rosservice list`.
 - If you are struggling you can send “HELP” to the service and it will return a helpful message.
+- **Hint: section 2 of this site will be most useful to you**
 
 ## Remember, we are here to help you! Make sure to ask us questions about anything you are confused about!
 - You can also always send a message in the discord to another Nav member, the #navigation channel, or to the leads if you need any help!
