@@ -176,7 +176,7 @@ rospack list | grep <package_name>
 Use the links below to learn how to create the subscriber node, and then call the service!
 
 - Hint: use `rosnode list` and `rosnode info <node_name>` to find what topic to subscribe to.
-
+- Hint use `rqt` to see a graph of how the nodes are interacting
 <br>
 
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
@@ -193,3 +193,31 @@ Use the links below to learn how to create the subscriber node, and then call th
 
 ## Remember, we are here to help you! Make sure to ask us questions about anything you are confused about!
 - You can also always send a message in the discord to another Nav member, the #navigation channel, or to the leads if you need any help!
+
+## Common Errors/Questions
+E: vault_keypad/secret.h: No such file or directory   
+A: If you are trying to use the vault_keypad scope in your custom package, you may run into this error. To fix this, go into your CMakeList.txt and add vault_keypad under find_package( 
+
+E: RLException: [package.launch] is neither a launch file in package [package] nor is [package] a launch file name   
+A: Most likely need to source devel/setup.bash, or your're not in the project root directory (ros_tutorial_ws) 
+
+E: [rospack] Error: package 'pkg_name' not found   
+A: Most likely need to source devel/setup.bash
+
+E: Unable to communicate with master  
+A: Make sure you have roscore running in one of your terminals
+
+E: The secret message being repeated over and over again.   
+A: Firstly, use Ctrl+C to stop the terminal. Secondly, this happens because ros::spin() repeatedly does callbacks, which is very often useful, but in cases like this, if you don’t want the repeated callbacks we can use ros::spinOnce() so it doesn't spam your terminal. 
+
+E: Who chose this terminal font color? Dark blue text over a black background? I can't see!   
+A: Me neither, Go to edit>preferences in your terminal to change that asap.
+
+Q: Topics vs. Services 
+A: Without going in depth, we can think of topics as continuous information, where the publisher decides when to push new data, and the subscriber receives it every callback. 
+
+We can think of services as single sources of information where the client is the one asking for data (sometimes passing in an argument, such as the secret code), and the server returns data. 
+
+In this project, secret_msgs is a publisher, and vault_kepad is a server. You are writing a subscriber and a service client.
+
+This means you shouldn't need the advertise() function for this project, as that is something a publisher uses. 
