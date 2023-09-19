@@ -180,14 +180,13 @@ Use the links below to learn how to create the subscriber node, and then call th
 <be>
 
 <h2>ROS Publisher and Subscriber Basics</h2>
-![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/254640ea-7f9c-4917-a92e-abe008198d76)
-
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
 - Note you created a package called <package_name> (from before) while the tutorial references a package they created called "beginner_tutorials".
 - It is important to note: Copying the subscriber directly will not work. It is an example of how a basic subscriber will look, work together to change the example into one that works with the `secret_msg` and `vault_keypad` nodes. 
 - **Hint: section 2 of this site will be most useful to you, and use `rosservice list`**
-
+![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/254640ea-7f9c-4917-a92e-abe008198d76)
+- Visual example of publisher/subscriber system.
 
 ### [Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
 - Go to the link above for a ros service and client tutorial. 
