@@ -180,7 +180,8 @@ Use the links below to learn how to create the subscriber node, and then call th
 <be>
 
 <h2>ROS Publisher and Subscriber Basics</h2>
-![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/4c0372ae-d947-4a93-9393-b0ee48417b5f)
+![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/254640ea-7f9c-4917-a92e-abe008198d76)
+
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
 - Note you created a package called <package_name> (from before) while the tutorial references a package they created called "beginner_tutorials".
