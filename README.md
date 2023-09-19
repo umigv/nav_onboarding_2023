@@ -12,6 +12,9 @@ You are a bank robber living in the digital age. All people and banks use ROS 1 
 - ROS Command Line Tools
 - Much More!
 
+**Research is a large part of the work done by ARV, to complete this tutorial you will need to research about ROS**
+- The ROS Noetic tutorial page is a great reference for questions you develop while completing the tutorial.
+- [ROS Noetic Tutorial Homepage](http://wiki.ros.org/ROS/Tutorials)
 <br>
 
 # DO NOT LOOK AT ANY OF THE OTHER FILES IN THIS REPOSITORY
