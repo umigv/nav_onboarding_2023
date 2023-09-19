@@ -177,14 +177,15 @@ Use the links below to learn how to create the subscriber node, and then call th
 
 - Hint: use `rosnode list` and `rosnode info <node_name>` to find what topic to subscribe to.
 - Hint use `rqt` to see a graph of how the nodes are interacting
-<br>
+<be>
 
+**ROS Publisher and Subscriber Basics**
+![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/4c0372ae-d947-4a93-9393-b0ee48417b5f)
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
 - Note you created a package called <package_name> (from before) while the tutorial references a package they created called "beginner_tutorials".
 - It is important to note: Copying the subscriber directly will not work. It is an example of how a basic subscriber will look, work together to change the example into one that works with the `secret_msg` and `vault_keypad` nodes. 
 - **Hint: section 2 of this site will be most useful to you, and use `rosservice list`**
-![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/4c0372ae-d947-4a93-9393-b0ee48417b5f)
 
 
 ### [Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
