@@ -199,7 +199,7 @@ E: vault_keypad/secret.h: No such file or directory
 A: If you are trying to use the vault_keypad scope in your custom package, you may run into this error. To fix this, go into your CMakeList.txt and add vault_keypad under find_package( 
 
 E: RLException: [package.launch] is neither a launch file in package [package] nor is [package] a launch file name   
-A: Most likely need to `source devel/setup.bash`, or your're not in the project root directory (`ros_tutorial_ws`) 
+A: Most likely need to `source devel/setup.bash`, or your're not in the project root directory (`~/ros_tutorial_ws`) 
 
 E: [rospack] Error: package 'pkg_name' not found   
 A: Most likely need to `source devel/setup.bash`
