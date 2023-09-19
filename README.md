@@ -44,10 +44,12 @@ mkdir ros_tutorial_ws
 
 ```shell
 cd ros_tutorial_ws
+catkin init
 mkdir src
 cd src
 ```
 - We move into the just-created "ros_tutorial_ws" folder, and create a "src" folder within it. We then move into the src folder. This means our current path would be `~/ros_tutorial_ws/src`.
+- catkin init is used to initialize the workspace, this allows ROS to recognize 'ros_tutorial_ws' as the root directory for the workspace.
 
 
 ```shell
