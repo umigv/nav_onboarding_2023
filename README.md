@@ -24,6 +24,7 @@ docker:
 [Docker Tutorial](https://docs.google.com/document/d/1BoBzBi_zj4UksIr_JSo8NRH-JYdkBk_sFzb5_qUIuQs/edit?usp=drive_link)
 - Open your docker container in VNC viewer (You can also view the container in your browser)
 - Open a terminal window
+- If VSCode will not open in your Docker container follow this tutorial [Docker VSCode Workaround](https://docs.google.com/document/d/1DOascHqaH1Ih_VTvIu2jEZ60dBv7hUgtpjIWpW41jOA/edit)
 
 <br><br>
 <h1> Navigation Onboarding Tutorial </h1>
