@@ -161,6 +161,14 @@ catkin_create_pkg <package_name> roscpp rospy std_msgs std_srvs message_generati
 - These files will be found in the `~/ros_tutorial_ws/src` directory, under a folder called <package_name> (which you specified when running the command).
 - `roscpp` `rospy` `std_msgs` etc, these are all ROS dependencies. These are just the ones needed for this tutorial, there are many other possible dependencies, and we will look into this as we develop more complex projects.
 
+```shell
+cd ~/ros_tutorial_ws
+catkin build
+rospack list | grep <package_name>
+```
+- Calling `catkin build` before you have any code is a good way to check if the package was created correctly.
+- When calling `rospack list | grep <package_name>` you should see your package appear.
+
 <br>
 Use the links below to learn how to create the subscriber node, and then call the service!
 
