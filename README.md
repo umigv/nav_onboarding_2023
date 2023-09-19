@@ -199,16 +199,16 @@ E: vault_keypad/secret.h: No such file or directory
 A: If you are trying to use the vault_keypad scope in your custom package, you may run into this error. To fix this, go into your CMakeList.txt and add vault_keypad under find_package( 
 
 E: RLException: [package.launch] is neither a launch file in package [package] nor is [package] a launch file name   
-A: Most likely need to source devel/setup.bash, or your're not in the project root directory (ros_tutorial_ws) 
+A: Most likely need to `source devel/setup.bash`, or your're not in the project root directory (`ros_tutorial_ws`) 
 
 E: [rospack] Error: package 'pkg_name' not found   
-A: Most likely need to source devel/setup.bash
+A: Most likely need to `source devel/setup.bash`
 
 E: Unable to communicate with master  
-A: Make sure you have roscore running in one of your terminals
+A: Make sure you have `roscore` running in one of your terminals
 
 E: The secret message being repeated over and over again.   
-A: Firstly, use Ctrl+C to stop the terminal. Secondly, this happens because ros::spin() repeatedly does callbacks, which is very often useful, but in cases like this, if you don’t want the repeated callbacks we can use ros::spinOnce() so it doesn't spam your terminal. 
+A: Firstly, use `Ctrl+C` to stop the terminal. Secondly, this happens because `ros::spin()` repeatedly does callbacks, which is very often useful, but in cases like this, if you don’t want the repeated callbacks we can use `ros::spinOnce()` so it doesn't spam your terminal. 
 
 E: Who chose this terminal font color? Dark blue text over a black background? I can't see!   
 A: Me neither, Go to edit>preferences in your terminal to change that asap.
