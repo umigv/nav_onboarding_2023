@@ -180,19 +180,24 @@ Use the links below to learn how to create the subscriber node, and then call th
 <be>
 
 <h2>ROS Publisher and Subscriber Basics</h2>
-### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
+
+### [Official Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
 - Note you created a package called <package_name> (from before) while the tutorial references a package they created called "beginner_tutorials".
 - It is important to note: Copying the subscriber directly will not work. It is an example of how a basic subscriber will look, work together to change the example into one that works with the `secret_msg` and `vault_keypad` nodes. 
 - **Hint: section 2 of this site will be most useful to you, and use `rosservice list`**
 ![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/254640ea-7f9c-4917-a92e-abe008198d76)
-- Visual example of publisher/subscriber system.
+- Visual example of ROS publisher/subscriber system.
 
-### [Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
+<h2>ROS Service and Client Basics</h2>
+
+### [Official Service Client Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingServiceClient%28c%2B%2B%29)
 - Go to the link above for a ros service and client tutorial. 
 - Call the service you found using `rosservice list`.
 - If you are struggling you can send “HELP” to the service and it will return a helpful message.
 - **Hint: section 2 of this site will be most useful to you**
+![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/f82e72fe-cbb3-4670-8778-6986ece16d22)
+- Visual example of ROS service/client system.
 
 ## Remember, we are here to help you! Make sure to ask us questions about anything you are confused about!
 - You can also always send a message in the discord to another Nav member, the #navigation channel, or to the leads if you need any help!
@@ -202,7 +207,7 @@ E: vault_keypad/secret.h: No such file or directory
 A: If you are trying to use the vault_keypad scope in your custom package, you may run into this error. To fix this, go into your CMakeList.txt and add vault_keypad under find_package( 
 
 E: RLException: [package.launch] is neither a launch file in package [package] nor is [package] a launch file name   
-A: Most likely need to `source devel/setup.bash`, or your're not in the project root directory (`~/ros_tutorial_ws`) 
+A: Most likely need to `source devel/setup.bash`, or you're not in the project root directory (`~/ros_tutorial_ws`) 
 
 E: [rospack] Error: package 'pkg_name' not found   
 A: Most likely need to `source devel/setup.bash`
@@ -214,10 +219,10 @@ E: The secret message being repeated over and over again.
 A: Firstly, use `Ctrl+C` to stop the terminal. Secondly, this happens because `ros::spin()` repeatedly does callbacks, which is very often useful, but in cases like this, if you don’t want the repeated callbacks we can use `ros::spinOnce()` so it doesn't spam your terminal. 
 
 E: Who chose this terminal font color? Dark blue text over a black background? I can't see!   
-A: Me neither, Go to edit>preferences in your terminal to change that asap.
+A: Me neither, Go to edit>preferences in your terminal to change that ASAP.
 
 Q: Topics vs. Services 
-A: Without going in depth, we can think of topics as continuous information, where the publisher decides when to push new data, and the subscriber receives it every callback. 
+A: Without going in-depth, we can think of topics as continuous information, where the publisher decides when to push new data, and the subscriber receives it every callback. 
 
 We can think of services as single sources of information where the client is the one asking for data (sometimes passing in an argument, such as the secret code), and the server returns data. 
 
