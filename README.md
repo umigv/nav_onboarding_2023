@@ -179,7 +179,7 @@ Use the links below to learn how to create the subscriber node, and then call th
 - Hint use `rqt` to see a graph of how the nodes are interacting
 <be>
 
-**ROS Publisher and Subscriber Basics**
+<h2>ROS Publisher and Subscriber Basics</h2>
 ![image](https://github.com/umigv/nav_onboarding_2023/assets/97559965/4c0372ae-d947-4a93-9393-b0ee48417b5f)
 ### [Publisher Tutorial](http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28c%2B%2B%29)
 - Go to the link above for a ros publisher, and subscriber tutorial.
