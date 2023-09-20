@@ -48,8 +48,8 @@ mkdir ros_tutorial_ws
 
 ```shell
 cd ros_tutorial_ws
-catkin init
 mkdir src
+catkin init
 cd src
 ```
 - We move into the just-created "ros_tutorial_ws" folder, and create a "src" folder within it. We then move into the src folder. This means our current path would be `~/ros_tutorial_ws/src`.
