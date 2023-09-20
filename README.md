@@ -177,7 +177,7 @@ rospack list | grep <package_name>
 Use the links below to learn how to create the subscriber node, and then call the service!
 
 - Hint: use `rosnode list` and `rosnode info <node_name>` to find what topic to subscribe to.
-- Hint use `rqt` to see a graph of how the nodes are interacting
+- Hint use `rqt_graph` to see a graph of how the nodes are interacting
 <be>
 
 <h2>ROS Publisher and Subscriber Basics</h2>
