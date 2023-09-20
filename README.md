@@ -168,6 +168,7 @@ catkin_create_pkg <package_name> roscpp rospy std_msgs std_srvs message_generati
 ```shell
 cd ~/ros_tutorial_ws
 catkin build
+source devel/setup.bash
 rospack list | grep <package_name>
 ```
 - Calling `catkin build` before you have any code is a good way to check if the package was created correctly.
